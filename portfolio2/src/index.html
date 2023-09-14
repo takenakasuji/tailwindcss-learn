@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="">
+  <!-- ヘッダー -->
+  <header class="py-4">
+    <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24">
+      <div class="w-32">
+        <a href="#">
+          <img src="./images/img.png" alt="logo">
+        </a>
+      </div>
+      <div class="space-x-12">
+        <a href="#about" class="hover:text-selected-text transition-all duration-300">About</a>
+        <a href="#bicycle" class="hover:text-selected-text transition-all duration-300">Bicycle</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- メインビジュアル -->
+  <div class="">
+    <img src="./images/img_1.png" alt="main-visual" class="object-cover h-80 md:h-[600px] w-full">
+  </div>
+
+  <!-- About -->
+  <section id="about" class="mt-24">
+    <div class="container mx-auto px-8 md:px-14 lg:px-24">
+      <h2 class="text-center text-3xl font-semibold underline decoration-1 underline-offset-4">About</h2>
+      <div class=" flex justify-center items-center mt-16">
+        <img src="./images/img_2.png" alt="selfy" class="w-28 h-28 object-cover rounded-full mr-8">
+        <div>
+          <h3 class="font-semibold">KAKERU MIYAICHI</h3>
+          <p class="text-sm mt-4">
+            テキストテキストテキストテキストテキストテキストテキスト<br><br>
+            テキストテキストテキストテキストテキストテキストテキスト<br>
+            テキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bicycle -->
+  <section id="bicycle" class="my-24">
+    <div class="container mx-auto px-8 md:px-14 lg:px-24">
+      <h2 class="text-center text-3xl font-semibold underline decoration-1 underline-offset-4">Bicycle</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+        <div>
+          <img src="./images/img_3.png" alt="" class="w-full h-5/6 object-cover">
+          <div class="text-center mt-6">
+            <h3 class="font-semibold">タイトル</h3>
+            <p class="text-sm text-gray-500">テキストテキストテキスト</p>
+          </div>
+        </div>
+        <div>
+          <img src="./images/img_4.png" alt="" class="w-full h-5/6 object-cover">
+          <div class="text-center mt-6">
+            <h3 class="font-semibold">タイトル</h3>
+            <p class="text-sm text-gray-500">テキストテキストテキスト</p>
+          </div>
+        </div>
+        <div>
+          <img src="./images/img_5.png" alt="" class="w-full h-5/6 object-cover">
+          <div class="text-center mt-6">
+            <h3 class="font-semibold">タイトル</h3>
+            <p class="text-sm text-gray-500">テキストテキストテキスト</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-24 mb-8 text-center text-sm text-gray-500">
+    <p>&copy;xero.com</p>
+  </footer>
+</body>
+</html>
